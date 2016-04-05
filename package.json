@@ -1,13 +1,13 @@
 {
-  "name": "react-autosuggest",
+  "name": "react-autosuggest-textarea",
   "version": "3.7.0",
   "description": "WAI-ARIA compliant React autosuggest component",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moroshko/react-autosuggest.git"
+    "url": "https://github.com/yneves/react-autosuggest.git"
   },
-  "author": "Misha Moroshko <michael.moroshko@gmail.com>",
+  "author": "Yuri Neves Silveira <npm@yneves.com>",
   "scripts": {
     "start": "mkdir -p demo/dist && npm run copy-static-files && node server",
     "lint": "eslint src demo/src test server.js demo/standalone/app.js webpack.dev.config.js webpack.gh-pages.config.js webpack.standalone.config.js webpack.standalone-demo.config.js",
@@ -23,7 +23,7 @@
     "prepublish": "npm run dist && npm run standalone"
   },
   "dependencies": {
-    "react-autowhatever": "https://github.com/yneves/react-autowhatever.git",
+    "react-autowhatever-textarea": "^3.1.0",
     "react-redux": "^4.4.0",
     "redux": "^3.3.1"
   },

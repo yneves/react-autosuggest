@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { inputFocused, inputBlurred, inputChanged, updateFocusedSuggestion,
          revealSuggestions, closeSuggestions } from './reducerAndActions';
-import Autowhatever from 'react-autowhatever';
+import Autowhatever from 'react-autowhatever-textarea';
 
 function mapStateToProps(state) {
   return {
