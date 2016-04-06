@@ -229,7 +229,9 @@ class Autosuggest extends Component {
               updateFocusedSuggestion(newFocusedSectionIndex, newFocusedItemIndex, value);
               this.maybeCallOnChange(event, newValue, event.key === 'ArrowDown' ? 'down' : 'up');
             }
-            event.preventDefault();
+            if (isOpen) {
+              event.preventDefault();
+            }
             break;
 
           case 'Enter': {
